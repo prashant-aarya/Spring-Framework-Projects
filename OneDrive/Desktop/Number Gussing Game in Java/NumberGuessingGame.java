@@ -99,3 +99,44 @@ public class NumberGuessingGame {
         sc.close();
     }
 }
+
+
+
+/*
+Output :- 
+
+Welcome to the Number Guessing Game!
+Enter your name: Prashant Arya
+
+Choose difficulty level:
+1. Easy (0 - 50, 10 attempts)
+2. Medium (0 - 100, 7 attempts)
+3. Hard (0 - 200, 5 attempts)
+Enter your choice (1-3): 2
+
+Hello Prashant Arya! You've selected MEDIUM level.
+You have 7 attempts to guess a number between 0 and 100.
+Attempt 1: 50
+Too high!
+Attempt 2: 30
+Too low!
+Attempt 3: 40
+Too high!
+Attempt 4: 35
+Too low!
+Attempt 5: 37
+Congratulations! You guessed the number.
+
+-------------------------------
+Player Name  : Prashant Arya
+Difficulty   : MEDIUM
+Attempts Used: 5
+Score        : 30
+-------------------------------
+New High Score!
+Current High Score: 30
+
+Do you want to play again? (yes/no): no
+Thanks for playing, Prashant Arya! Your highest score was: 30 
+
+*/
