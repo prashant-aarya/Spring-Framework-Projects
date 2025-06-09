@@ -19,5 +19,8 @@ public class Main
 	  
 	   Student std2=(Student)context.getBean("stdId2");
 	   std2.display();
+	   
+	   //Student std2=context.getBean(Student.class);
+	   //std2.display();
 	}
 }
